@@ -4,11 +4,15 @@
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
     	<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">		
 		<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css"> 
 		<style type="text/css">
 		     .heading, .subheading {
-			     font-family: 'Audiowide', cursive;
-			     text-align: center;
+			    font-family: 'Audiowide', cursive;
+			    text-align: center;
 		     }	
+		    .social {
+		        padding: 3% 0%;
+		    }		     
 	    </style>
 	</head>
 	<body>
@@ -45,13 +49,36 @@
 	        </div>
 	    </div>
 
-        <div class="actions">
-	        <div class="span5 offset1 video">
-	        	<img class="img-rounded" src="http://placehold.it/480x300">
+        <div class="container-fluid">
+    		<div class="row-fluid">    	
+		        <div class="span5 offset1">
+		        	<img class="img-rounded" src="http://placehold.it/480x300">
+		        </div>
+
+		        <div class="span5 offset1">
+		        	<img class="img-rounded" src="http://placehold.it/480x300">
+		        </div>
+		    </div>
+
+		    <div class="row-fluid social">
+		    	<div class="span7 offset3">
+		            <div class="span7 offset2">
+		            	<div class="row-fluid">
+				            <div class="thermometer progress active">
+				                <div class="bar bar-success" style="width: 60%;"></div>
+				                <div class="bar bar-warning" style="width: 40%;"></div>
+				            </div>
+			            </div>
+			            <div class="row-fluid">
+				            <button class="btn btn-twitter offset3"><i class="icon-twitter"></i> | Twitter</button>
+			    	        <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
+		    	        </div>
+		          	</div>
+	          	</div>
 	        </div>
-	        <div class="span5 offset1 video">
-	        	<img class="img-rounded" src="http://placehold.it/480x300">
-	        </div>
+	      
+
+
         </div>
 
 	    <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
